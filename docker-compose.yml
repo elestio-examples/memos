@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    memos:
+        image: 'neosmemo/memos:${SOFTWARE_VERSION_TAG}'
+        restart: always
+        ports:
+            - '172.17.0.1:5230:5230'
+        volumes:
+            - './memos/:/var/opt/memos'
