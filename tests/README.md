@@ -97,8 +97,8 @@ That's it! With these simple steps, you can easily backup and restore your data 
 
 # Links
 
-- <a target="_blank" href="https://github.com/memos/memos/wiki">Memos documentation</a>
+- <a target="_blank" href="https://usememos.com/docs">Memos documentation</a>
 
-- <a target="_blank" href="https://github.com/memos/memos">Memos Github repository</a>
+- <a target="_blank" href="https://github.com/usememos/memos">Memos Github repository</a>
 
 - <a target="_blank" href="https://github.com/elestio-examples/memos">Elestio/memos Github repository</a>
