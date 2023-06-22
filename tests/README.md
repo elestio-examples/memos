@@ -36,6 +36,11 @@ Copy the .env file from tests folder to the project directory
 
 Edit the .env file with your own values.
 
+Create data folders with correct permissions
+
+    mkdir -p ./memos
+    chown -R 1000:1000 ./memos
+
 Run the project with the following command
 
     docker-compose up -d
