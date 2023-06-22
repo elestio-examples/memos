@@ -40,7 +40,7 @@ Run the project with the following command
 
     docker-compose up -d
 
-You can access the Web UI at: `http://your-domain:7972`
+You can access the Web UI at: `http://your-domain:5230`
 
 ## Docker-compose
 
@@ -55,12 +55,6 @@ Here are some example snippets to help you get started creating a container.
                 - '172.17.0.1:5230:5230'
             volumes:
                 - './memos/:/var/opt/memos'
-
-### Environment variables
-
-|    Variable    | Value (example) |
-| :------------: | :-------------: |
-| ADMIN_PASSWORD | xxxx-xxxx-xxxx  |
 
 # Maintenance
 
