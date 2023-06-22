@@ -7,7 +7,7 @@ sleep 15s;
 
 target=$(docker-compose port memos 5230)
 
-curl http://${target}/api/auth/signup \
+curl http://${target}/api/v1/auth/signup \
   -H 'accept: application/json, text/plain, */*' \
   -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,he;q=0.6' \
   -H 'content-type: application/json' \
